@@ -1,0 +1,14 @@
+.create-diamond-container {
+    position: relative;
+    top: 70px;
+    margin-bottom: 150px;
+}
+
+.create-diamond-container .create-diamond-content {
+    margin: 30px 50px;
+}
+
+.create-diamond-container .create-diamond-content .create-diamond-wrapper {
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 8px;
+}

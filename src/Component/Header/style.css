@@ -1,0 +1,95 @@
+.site-page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 0 !important;
+}
+
+.site-page-header .header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    background-color: #000;
+}
+
+.site-page-header .header-content .header-logo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.site-page-header .header-content .header-logo-content .header-title {
+    font-size: 30px;
+    color: #fff;
+    font-family: Merriweather;
+    font-weight: 600;
+}
+
+.site-page-header .header-content .header-login-button {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.site-page-header .header-content .header-title {
+    color: #001529;
+    margin: 0 !important;
+}
+
+.choose-plan-btn {
+    background-color: #000;
+    color: #fff;
+}
+
+.choose-plan-btn:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.login-button {
+    background-color: #424242;
+    color: #fff;
+    border-color: transparent;
+}
+
+.login-button:hover {
+    background-color: #424242 !important;
+    color: #fff !important;
+    border-color: #424242 !important;
+}
+
+.account-text {
+    font-size: 13px;
+    color: #000;
+}
+
+.header-navItem {
+    color: grey;
+    margin: 15px;
+}
+.header-navItem:hover {
+    color: wheat;
+    cursor: pointer;
+}
+.header-navItem:active {
+    color: grey;
+}
+
+.drop-down {
+    max-height: 250px; 
+    overflow-y: auto; 
+}
+.header-menu{
+    margin-right: 50px;
+}

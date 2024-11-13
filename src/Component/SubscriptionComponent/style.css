@@ -1,0 +1,170 @@
+.subscription-component {
+    position: relative;
+    top: 70px;
+    margin-bottom: 150px;
+}
+
+.subsciption-content:nth-of-type(odd) {
+    background-color: #FFF;
+}
+
+.subsciption-content:nth-of-type(even) {
+    background-color: #F8F9FA;
+}
+
+.subsciption-container .plans-price-component {
+    text-align: center;
+    padding: 50px 280px;
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    margin: 50px 150px;
+}
+
+.subsciption-container .plans-price-component .plans-price-label {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.subsciption-container .plans-price-component .plans-price-desc {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.radio-group .ant-radio-button-wrapper {
+    background-color: #fff !important;
+    color: #D2002E !important;
+    border-color: #D2002E !important;
+}
+
+.radio-group .ant-radio-button-wrapper-checked {
+    background-color: #D2002E !important;
+    color: #fff !important;
+    border-color: #D2002E !important;
+}
+
+.subsciption-container .plans-table-component {
+    text-align: center;
+    padding: 50px 100px;
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    margin: 50px 150px;
+}
+
+.plan-table-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+.plan-table-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    width: 350px;
+}
+
+.plan-detail {
+    padding: 20px 30px;
+}
+
+.plan-detail .plan-header {
+    font-weight: 600;
+    display: flex;
+    flex-flow: column;
+    height: 80px;
+}
+
+.plan-price-detail {
+    height: 80px;
+}
+
+.plan-price-detail .plan-price{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.plan-price-detail .plan-price-save-btn{
+    color: #9CA2A8;
+    font-weight: 500;
+    border-color: #9CA2A8;
+    border-radius: initial;
+    cursor: default;
+}
+.plan-price-detail .plan-price-save-btn:hover{
+    color: #9CA2A8 !important;
+    border-color: #9CA2A8 !important;
+}
+
+.plan-desc-content {
+    padding: 30px 0;
+    height: 100px;
+}
+
+.plan-apply {
+    height: 60px;
+}
+
+.plan-apply .apply-btn {
+    font-size: 18px;
+    padding: 20px 40px;
+    background-color: #D2002E;
+    color: #fff;
+}
+.plan-apply .apply-btn:hover {
+    color: #fff !important;
+    border-color: #D2002E !important;
+    background: #D2002E !important;
+}
+
+.subsciption-container .plan-footer {
+    text-align: center;
+    padding: 0 100px;
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    margin: 50px 150px;
+}
+
+.subsciption-container .plan-footer .plan-footer-iamges {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.subsciption-container .plan-footer .plan-footer-iamges img {
+    border: 1px solid lightgrey;
+    padding: 7px;
+}
+
+.subsciption-container .subsciption-question-component {
+    text-align: center;
+    padding: 50px 200px;
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    margin: 50px 150px;
+}
+
+.subsciption-container .subsciption-question-component .question-label {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.subsciption-container .subsciption-question-component .question-desc {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subsciption-container .subsciption-question-component .contact-us-btn {
+    background-color: #009ED3;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 18px;
+}
+.subsciption-container .subsciption-question-component .contact-us-btn:hover {
+    background-color: #009ED3;
+    color: #fff;
+    border-color: #009ED3;
+}
+

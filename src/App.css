@@ -1,0 +1,46 @@
+.login-modal .ant-modal-content {
+    width: 400px;
+}
+
+.input-field .ant-input-affix-wrapper {
+    height: 40px;
+}
+
+.need-help-component {
+    text-align: center;
+}
+
+.need-help-email-contact {
+    display: flex;
+    /*gap: 20px;*/
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.need-help-email-content, .need-help-contact-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 59px
+}
+
+.need-help-email-content {
+    background: #000;
+}
+.need-help-contact-content {
+    background: initial;
+}
+
+.react-phone-input {
+    margin-bottom: 24px;
+}
+
+.react-phone-input .form-control {
+    width: 100% !important;
+}
+
+.mui-menu-item.MuiMenuItem-root {
+    padding: 0 !important;
+    width: 200px !important;
+}

@@ -1,0 +1,143 @@
+.dimond-detail-modal {
+    width: 80% !important;
+}
+
+.dimond-detail-modal .diamond-detail-edit-button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+    background: linear-gradient(to right, rgb(2 2 2) 0%, rgb(118 128 130) 100%) 0% 0% no-repeat padding-box padding-box transparent;
+}
+.dimond-detail-modal .diamond-detail-edit-button:hover {
+    color: #fff !important;
+    background: linear-gradient(to right, rgb(2 2 2) 0%, rgb(118 128 130) 100%) 0% 0% no-repeat padding-box padding-box transparent !important;
+    border-color: #000 !important;
+}
+
+.dimond-detail-modal .seller-detail-container {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.06), 0 1px 4px rgba(0, 0, 0, 0.08);
+    height: 230px;
+}
+
+.dimond-detail-modal .seller-detail-container .seller-detail-header-container {
+    padding: 15px 20px;
+    border-radius: 9px 9px 0 0;
+    background: linear-gradient(to right, rgb(2 2 2) 0%, rgb(118 128 130) 100%) 0% 0% no-repeat padding-box padding-box transparent;
+}
+
+.dimond-detail-modal .seller-detail-container .seller-detail-header-container .seller-detail-header-title {
+    color: #fff;
+    font-size: 18px;
+}
+
+.dimond-detail-modal .seller-detail-container .seller-detail-vendor-container {
+    padding: 15px 20px;
+}
+
+.dimond-detail-modal .seller-detail-container .seller-detail-vendor-container .ant-divider-horizontal {
+    margin: 10px 0 !important;
+}
+
+.dimond-detail-modal .seller-detail-container .seller-detail-vendor-container .seller-detail-vendor-name {
+    font-size: 18px;
+    text-align: center;
+}
+
+.dimond-detail-modal .diamond-detail-container {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.06), 0 1px 4px rgba(0, 0, 0, 0.08);
+    height: 230px;
+}
+
+.dimond-detail-modal .diamond-detail-container .diamond-detail-first-part {
+    height: 50%;
+    padding: 15px 20px;
+}
+
+.dimond-detail-modal .diamond-detail-container .diamond-detail-second-part {
+    height: 50%;
+    padding: 15px 20px;
+}
+
+.dimond-detail-modal .diamond-other-detail-container {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.06), 0 1px 4px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+}
+
+.dimond-detail-modal .diamond-other-detail-container .diamond-other-detail-header-container {
+    padding: 15px 20px;
+    border-radius: 9px 9px 0 0;
+    background: linear-gradient(to right, rgb(2 2 2) 0%, rgb(118 128 130) 100%) 0% 0% no-repeat padding-box padding-box transparent;
+}
+
+.dimond-detail-modal .diamond-other-detail-container .diamond-other-detail-header-container .diamond-other-detail-header-title {
+    color: #fff;
+    font-size: 18px;
+}
+
+.dimond-detail-modal .diamond-other-detail-container .diamond-other-detail-desc-container {
+    padding: 15px 20px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.dimond-detail-modal .diamond-other-detail-container .diamond-other-detail-desc-container .diamond-other-detail-first-sec {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px 1px rgb(0 0 0 / 3%), 4px 5px 13px 0px rgb(0 0 0 / 11%);
+    background-image: linear-gradient(to left, rgb(0 0 0 / 18%), rgb(206 206 206 / 44%));
+}
+
+.diamond-detail-label {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.diamond-detail-value {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dimond-detail-modal .price-detail-container {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.06), 0 1px 4px rgba(0, 0, 0, 0.08);
+    height: 230px;
+}
+
+.dimond-detail-modal .price-detail-container .price-detail-header-container {
+    padding: 15px 20px;
+    border-radius: 9px 9px 0 0;
+    background: linear-gradient(to right, rgb(2 2 2) 0%, rgb(118 128 130) 100%) 0% 0% no-repeat padding-box padding-box transparent;
+}
+
+.dimond-detail-modal .price-detail-container .price-detail-header-container .price-detail-header-title {
+    color: #fff;
+    font-size: 18px;
+}
+
+.dimond-detail-modal .price-detail-container .price-detail-value-content {
+    padding: 15px 20px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.dimond-detail-modal .price-detail-container .price-detail-value-content .price-other-detail-first-sec {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px 1px rgb(0 0 0 / 3%), 4px 5px 13px 0px rgb(0 0 0 / 11%);
+    background-image: linear-gradient(to left, rgb(0 0 0 / 18%), rgb(206 206 206 / 44%));
+}
+
+.media-image {
+    display: flex;
+    align-items: center;
+}

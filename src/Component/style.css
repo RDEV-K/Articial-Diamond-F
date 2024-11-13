@@ -1,0 +1,134 @@
+.diamond-card .ant-pro-card-body {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+ }
+ 
+ .ant-tag-checkable:hover {
+     color: #000 !important;
+ }
+ 
+ .ant-tag-checkable-checked:hover {
+     background-color: #000 !important;
+     color: #fff !important;
+ }
+ 
+ .tag-unchecked {
+     min-width: 70px;
+     width: auto;
+     text-align: center;
+     cursor: pointer;
+     color: #000;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 6px;
+     border: none;
+     background-color: #f7f7f7;
+ }
+ 
+ .tag-checked {
+     min-width: 70px;
+     width: auto;
+     text-align: center;
+     cursor: pointer;
+     color: #fff;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 6px;
+     border: none;
+     background-color: #000;
+ }
+ 
+ .diamond-unchecked {
+     /*min-width: 70px;*/
+     /*width: auto;*/
+     width: 110px;
+     text-align: center;
+     cursor: pointer;
+     color: #000;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 0 !important;
+     border: none;
+     background-color: transparent !important;
+ }
+ 
+ .diamond-checked {
+     /*min-width: 70px;*/
+     /*width: auto;*/
+     width: 110px;
+     text-align: center;
+     cursor: pointer;
+     color: #fff;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 0 !important;
+     border: 1px solid #000 !important;
+     background-color: #FEF5FF !important;
+ }
+ 
+ .diamond-col {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+ }
+ 
+ .diamond-col .ant-tag-checkable-checked:hover {
+     background-color: transparent !important;
+ }
+ 
+ .diamond-col .ant-tag-checkable:hover {
+     background-color: transparent !important;
+     border: 1px solid #000 !important;
+ }
+ 
+ .diamond-shape {
+     border: 1px solid #E6E6E6;
+ }
+ 
+ .diamond-shape .checked-diamond-card {
+     padding: 0 !important;
+     background-color: #FEF5FF;
+ }
+ 
+ .diamond-shape .unchecked-diamond-card {
+     padding: 0 !important;
+     background-color: #fff;
+ }
+ 
+ .diamond-shape .ant-pro-card-border {
+     border: none !important;
+ }
+ 
+ .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #333;
+     color: white;
+     text-align: center;
+     padding: 10px 0;
+     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .mui-menu-item.MuiMenuItem-root {
+     padding: 0 !important;
+     width: 200px !important;
+ }
+ 
+ .mui-form-control {
+     padding: 0 !important;
+     max-width: 215px;
+ }
+ 
+ .mui-form-control .MuiFormControl-root {
+     margin: 0 !important;
+ }
+ 
+ .diamond_table .ant-table {
+     overflow: auto !important;
+ }
+ 

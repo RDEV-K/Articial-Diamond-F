@@ -1,0 +1,288 @@
+.diamond-table-wrapper {
+    position: relative;
+    top: 50px;
+    margin-bottom: 120px;
+}
+
+.diamond-table-wrapper .diamond-table-header {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    /*margin: 15px;*/
+    padding: 15px 24px;
+}
+
+.diamond-table-wrapper .diamond-filter-button {
+    display: flex;
+    gap: 10px;
+}
+
+.diamond-table-wrapper .diamond-filter-button .diamond-apply-filter {
+    background-color: #F0AD4E;
+    color: #fff;
+}
+.diamond-table-wrapper .diamond-filter-button .diamond-apply-filter:hover {
+    background-color: #F0AD4E !important;
+    color: #fff !important;
+    border: transparent !important;
+}
+
+.diamond-table-wrapper .diamond-filter-button .diamond-clear-filter {
+    background-color: #fff;
+    color: brown;
+    border-color: brown !important;
+}
+
+.diamond-table-wrapper .diamond-filter-button .diamond-clear-filter:hover {
+    background-color: brown !important;
+    color: white !important;
+}
+
+.diamond-table-wrapper .diamond-filter-button .create-diamond-button {
+    background-color: #5CB85C;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.diamond-table-wrapper .diamond-filter-button .create-diamond-button:hover {
+    background-color: #5CB85C !important;
+    color: #fff !important;
+    border: transparent !important;
+}
+
+.diamond-table-wrapper .diamond-filter-button .diamond-upload-button {
+    background-color: #5CC0DE;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.diamond-table-wrapper .diamond-filter-button .diamond-upload-button:hover {
+    background-color: #5CC0DE !important;
+    color: #fff !important;
+    border: transparent !important;
+}
+
+.diamond-table-wrapper .diamond-filter-button .diamond-upload-button .anticon {
+    margin: 0 !important;
+}
+
+.diamond-card .ant-pro-card-body {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .ant-tag-checkable:hover {
+     color: #000 !important;
+ }
+
+ .ant-tag-checkable-checked:hover {
+     background-color: #000 !important;
+     color: #fff !important;
+ }
+
+ .tag-unchecked {
+     min-width: 70px;
+     width: auto;
+     text-align: center;
+     cursor: pointer;
+     color: #000;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 6px;
+     border: none;
+     background-color: #f7f7f7;
+ }
+
+ .tag-checked {
+     min-width: 70px;
+     width: auto;
+     text-align: center;
+     cursor: pointer;
+     color: #fff;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 6px;
+     border: none;
+     background-color: #000;
+ }
+
+ .diamond-unchecked {
+     /*min-width: 70px;*/
+     /*width: auto;*/
+     width: 110px;
+     text-align: center;
+     cursor: pointer;
+     color: #000;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 0 !important;
+     border: none;
+     background-color: transparent !important;
+ }
+
+ .diamond-checked {
+     /*min-width: 70px;*/
+     /*width: auto;*/
+     width: 110px;
+     text-align: center;
+     cursor: pointer;
+     color: #fff;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 0 !important;
+     border: 1px solid #000 !important;
+     background-color: #FEF5FF !important;
+ }
+
+ .diamond-col {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+ }
+
+ .diamond-col .ant-tag-checkable-checked:hover {
+     background-color: transparent !important;
+ }
+
+ .diamond-col .ant-tag-checkable:hover {
+     background-color: transparent !important;
+     border: 1px solid #000 !important;
+ }
+
+ .diamond-shape {
+     border: 1px solid #E6E6E6;
+ }
+
+ .diamond-shape .checked-diamond-card {
+     padding: 0 !important;
+     background-color: #FEF5FF;
+ }
+
+ .diamond-shape .unchecked-diamond-card {
+     padding: 0 !important;
+     background-color: #fff;
+ }
+
+ .diamond-shape .ant-pro-card-border {
+     border: none !important;
+ }
+
+ .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #333;
+     color: white;
+     text-align: center;
+     padding: 10px 0;
+     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .mui-menu-item.MuiMenuItem-root {
+     padding: 0 !important;
+     width: 200px !important;
+ }
+
+ .mui-form-control {
+     padding: 0 !important;
+     max-width: 215px;
+ }
+
+ .mui-form-control .MuiFormControl-root {
+     margin: 0 !important;
+ }
+
+ .diamond_table .ant-table {
+     overflow: auto !important;
+ }
+
+ .show-advance-search-button {
+    text-align: left;
+    margin-top: 15px;
+ }
+
+.centered-table .ant-table-cell {
+    text-align: center !important;
+}
+
+.centered-table .ant-table-thead > tr > th {
+    background-color: #F2F6FB;
+    color: #737F8C;
+    font-size: 12px;
+}
+
+.centered-table .ant-table-tbody > tr > td {
+    font-size: 12px;
+}
+
+.search-detail {
+    width: 90% !important;
+}
+
+.diamond-table-wrapper .diamond-image-container .diamond-tabs-component {
+    position: relative;
+    top: -53px;
+}
+
+.diamond-table-wrapper .diamond-image-container .diamond-image {
+    width: 100vw !important;
+}
+
+.diamond-table-wrapper .diamond-image-container .diamond-tabs-component .ant-tabs-nav {
+    padding: 0 24px;
+}
+
+.diamond-table-wrapper .diamond-image-container .diamond-tabs-component .ant-tabs-nav:before {
+    border-bottom: none !important;
+}
+
+.diamond-table-wrapper .diamond-image-container .diamond-tabs-component .ant-tabs-nav .ant-tabs-nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+.diamond-table-wrapper .diamond-image-container .diamond-tabs-component .ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active {
+    padding: 13px 16px;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.diamond-table-wrapper .diamond-image-container .diamond-tabs-component .ant-tabs-nav .ant-tabs-tab {
+    padding: 13px 16px;
+    background-color: #4B3E3E;
+    border-color: #4B3E3E;
+}
+
+.diamond-table-wrapper .diamond-image-container .diamond-tabs-component .ant-tabs-nav .ant-tabs-nav-list .ant-tabs-tab .ant-tabs-tab-btn {
+    color: #C4B6B6;
+    font-size: 14px;
+}
+
+.diamond-table-wrapper .diamond-image-container .diamond-tabs-component .ant-tabs-nav .ant-tabs-nav-list .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #000;
+    font-size: 14px;
+}
+
+.diamond-table-wrapper .diamond-image-container .diamond-tabs-component .tab-content-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-seller-button {
+    background-color: #C59476;
+    color: #fff;
+    font-size: 10px;
+    padding: 1px 10px;
+    height: 25px;
+}
+
+.contact-seller-button:hover {
+    background-color: #C59476 !important;
+    color: #fff !important;
+    border-color: #C59476 !important;
+}

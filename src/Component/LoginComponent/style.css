@@ -1,0 +1,87 @@
+.login-container {
+    /*position: relative;*/
+    /*top: 64px;*/
+    background-color: #110B0B;
+    padding: 25px;
+    /*height: calc(100vh - 64px) !important;*/
+    margin-top: 64px;
+}
+
+.login-container .login-container-row-wrapper {
+    background-color: #fff;
+    height: 100%;
+}
+
+.login-container .react-phone-input .react-tel-input .form-control {
+    height: 45px !important;
+}
+
+.login-form {
+    padding: 60px;
+    /*background-color: rgba(218, 187, 202, 0.07);*/
+}
+
+.login-form .antd-input-field .ant-input-affix-wrapper {
+    height: 45px !important;
+}
+
+.login-modal {
+    width: 30% !important;
+}
+
+.login-modal .ant-modal-content {
+    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.login-page-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.login-form-button {
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.sign-in-with-google-button {
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 40px;
+}
+
+.sign-in-with-facebook-button {
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    background-color: #4267B2;
+    color: #fff;
+    height: 40px;
+}
+
+.sign-in-with-email-button {
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #99C42F;
+    color: #fff;
+    height: 40px;
+}

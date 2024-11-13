@@ -1,0 +1,6 @@
+.upload-box {
+    border: 3px dashed lightgrey;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+}

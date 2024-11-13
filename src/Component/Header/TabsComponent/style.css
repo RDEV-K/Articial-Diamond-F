@@ -1,0 +1,29 @@
+.header-tab-content {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.header-tab-content.ant-layout-header {
+    background-color: #4B3E3E !important;
+}
+
+.header-tab-content ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark {
+    background-color: #4B3E3E !important;
+}
+
+.header-tab-content .ant-menu-item {
+    background-color: #4B3E3E !important;
+}
+
+.header-tab-content .ant-menu-item-selected {
+    background-color: #fff !important;
+}
+
+.header-tab-content .ant-menu-title-content {
+    color: #fff;
+}
+
+.header-tab-content .ant-menu-item-selected .ant-menu-title-content {
+    color: #000;
+}

@@ -1,0 +1,100 @@
+.profile-detail-wrapper {
+    border: 1px solid lightgray;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.profile-detail-wrapper .profile-iamge {
+    text-align: center;
+}
+
+.profile-detail-wrapper .profile-detail-info {
+    margin-top: 20px;
+}
+
+
+
+
+
+.profile-container {
+    position: relative;
+    top: 70px;
+    margin: 30px 350px 150px 350px;
+}
+
+.profile-container .profile-content {
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 8px;
+    padding: 30px;
+}
+
+.profile-container .profile-content .profile-image-content {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.profile-container .profile-content .profile-image-content .profile-image {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-container .profile-content .profile-image-content .profile-image div {
+    position: absolute;
+    top: 60%;
+    left: 73%;
+    z-index: 10;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.profile-container .profile-content .profile-detail-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-container .profile-edit-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.profile-container .profile-edit-btn .profile-edit-btn {
+    background-color: #000;
+    color: #fff;
+}
+
+.profile-container .profile-edit-btn .profile-edit-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+.profile-container .profile-update  {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+}
+
+.profile-container .profile-update .update-profile-btn {
+    background-color: #000;
+    color: #fff;
+}
+
+.profile-container .profile-update .update-profile-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.profile-container .profile-content .profile-detail-content .profile-label {
+    font-size: 18px;
+    color: gray;
+}
+
+.profile-container .profile-content .profile-detail-content .profile-value {
+    font-size: 18px;
+}
